@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    /* 마진을 주지 않으면 padding 이 자동설정된다. */
+    margin:0px;
+}
+
+.background {
+    width: 1024px;
+    height: 600px;
+    background-image: url("../images/background.png");
+    /* "./" : 현재폴더, "../": 한 단계 상위 폴더 */
+    padding: 20px 0px 0px 20px;
+    /* 위쪽 오른쪽 아래쪽 왼쪽 (시계방향) / 내부에 padding 을 주는 것이다. */
+}
+
+.outerbox {
+    width: 808px;
+    height: 544px;
+    background-image: url("../images/outerbox.png");
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 0px 0px 32px;
+}
+
+/* 왼쪽 영역 */
+.wrapper__left {
+    width: 208px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3px;
+    margin-right: 7px;
+}
+
+.wrapper__left__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+.today {
+    font-size: 9px;
+}
+
+/* 왼쪽 영역 - 바디(프로필) */
+.wrapper__left__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.left__body__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+.left__body__header__gray {
+    width: 148px;
+    height: 133px;
+    background-color: darkgray;
+}
+
+.left__body__header__line {
+    border-top: 1px dotted black;
+/*    바깥에 padding */
+    margin: 12px 0px;
+}
+
+.left__body__profile {
+    align-content:
+}
+
+.left__body__footer {
+
+}
+
+.wrapper__right {
+    width: 524px;
+    height: 472px;
+    background-color: violet;
+}

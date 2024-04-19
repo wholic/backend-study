@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- 실습 목표 : -->
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      /*  3개의 박스가 사이즈가 똑같아진다.*/
+      }
+      div {
+          width: 80px;
+          height: 80px;
+          border: 1px solid red;
+          padding: 10px;
+      }
+      .parentBox {
+          width : 500px;
+          height: 500px;
+          border: 1px solid blue;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          padding: 50px;
+      /*  flex-direction: row; 를 입력하지 않아도 default 값으로 설정되어 있다.  */
+      }
+      /*#contentBox {*/
+      /*    box-sizing: content-box;*/
+      /*}*/
+      /*#borderBox {*/
+      /*    box-sizing: border-box;*/
+      /*}*/
+    </style>
+</head>
+<body>
+<!--  <div id="contentBox">박스 1</div>-->
+<!--  <div>박스 2</div>-->
+<!--  <div id="borderBox">박스 3</div>-->
+    <div class = "parentBox">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <link href="./hw_01-signup.css" rel="stylesheet">
+<!--    style 태그는 직접적으로 한 파일에서 수정할때 -->
+<!--    link 태그는 css 파일을 만들고 적용할 때-->
+<!--    <style>-->
+<!--        .pw {-->
+<!--            border : 1px solid blue;-->
+<!--        }-->
+<!--    </style>-->
+
+</head>
+<body>
+
+    <div class="parentBox">
+        <div class="InnerBox">
+            <h2>회원 가입을 위해 정보를 입력해주세요</h2>
+                <input class="str" type="text" placeholder="* 이메일"><br><br>
+                <input class="str" type="text" placeholder="* 이름"><br><br>
+                <input class="str" type="password" placeholder="* 비밀번호"><br><br>
+                <input class="str" type="password" placeholder="* 비밀번호 확인"><br><br>
+                <input class="radio" type="radio", name="gender">여성
+                <input class="radio" type="radio", name=\"gender">남성
+                <br><br>
+                <input type="checkbox"> 이용약관 개인정보 수집 및 동의합니다.
+                <button>가입하기</button>
+            <!-- 하나의 그룹으로 묶어줘야한다.-->
+        </div>
+    </div>
+
+    <!-- <input type="button" value="가입하기">
+    이렇게 해도 되지만, 요새는 button 에 이미지를 넣거나 예쁘게 꾸며주는 경우도 많다
+    그래서 button 이라는 태그가 새롭게 생성된 것이다.-->
+</body>
+</html>

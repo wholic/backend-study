@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+.parentBox {
+    width : 670px;
+    height: 960px;
+    border: 1px solid #AACDFF;
+    box-shadow:7px 7px 37px 0px #0068FF;
+    border-radius: 20px;
+/*  flex-direction: row; 를 입력하지 않아도 default 값으로 설정되어 있다.  */
+}
+
+.InnerBox {
+    width : 470px;
+    height: 818px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+h2 {
+    width: 466px;
+    height: 94px;
+    color: #0068FF;
+}
+
+.str {
+    width : 466px;
+    height : 80px;
+    border : None;
+    border-bottom: 1px solid #797979;
+}
+
+
+.radio {
+    width : 140px;
+    height: 23.94px;
+}
+
+button {
+    width: 470px;
+    height: 75px;
+    border: 1px solid #0068FF;
+    background-color: white;
+    border-radius: 10px;
+/*  폰트 색깔 바꾸기 */
+}
